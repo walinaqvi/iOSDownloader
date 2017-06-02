@@ -14,7 +14,10 @@
 		536303472505C6E8DCA81F35FE4C1C98 /* Pods-iOSDownloader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6896C20C8D7EFCADA50B829A5CCD12E1 /* Pods-iOSDownloader_Tests-dummy.m */; };
 		5605BEAC30E9FC340CFED8D8C779BEE4 /* Pods-iOSDownloader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2E6B7F14FDE05471A4718EFC5A22B /* Pods-iOSDownloader_Example-dummy.m */; };
 		7A42E3B6A546B92A52CE9B6F33BEA6E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B9E5DB7F73487DD9D190D87AAD1EAA4D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F9D4C91D25E09A997621A4DB2BBF0 /* ReplaceMe.m */; };
+		8EC8EA6F1EE19A9C003424D9 /* WHDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC8EA6D1EE19A9C003424D9 /* WHDownloadManager.h */; };
+		8EC8EA701EE19A9C003424D9 /* WHDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8EA6E1EE19A9C003424D9 /* WHDownloadManager.m */; };
+		8EC8EA741EE19ABD003424D9 /* WHBlockOperationWithUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC8EA721EE19ABD003424D9 /* WHBlockOperationWithUrl.h */; };
+		8EC8EA751EE19ABD003424D9 /* WHBlockOperationWithUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8EA731EE19ABD003424D9 /* WHBlockOperationWithUrl.m */; };
 		BCFB4C0B8EFD32DE864003E32311FEEE /* Pods-iOSDownloader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E3A1624F2759B0F9EF9869B95831BFD /* Pods-iOSDownloader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0D6BD016CE6AB5C17974FC8B297FE69 /* Pods-iOSDownloader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6B811B10EA46D5C4E9981F75CF9D84 /* Pods-iOSDownloader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -30,13 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		027F9D4C91D25E09A997621A4DB2BBF0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		0304739175C0004BF61B333F4B0241EF /* Pods-iOSDownloader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSDownloader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		092E65AF2095B9764B85A86030CE1A0C /* Pods-iOSDownloader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSDownloader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1C21986DCA916C15C8503B1DAAC149C2 /* Pods-iOSDownloader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSDownloader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		29EA61066C46326F01535A266B8BD125 /* iOSDownloader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iOSDownloader.modulemap; sourceTree = "<group>"; };
+		29EA61066C46326F01535A266B8BD125 /* iOSDownloader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = iOSDownloader.modulemap; sourceTree = "<group>"; };
 		2B68FF674413E50A019EF0AF83574CA6 /* Pods-iOSDownloader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSDownloader_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2C1AA7320F2F7D7D325AB3C5562B9318 /* Pods-iOSDownloader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iOSDownloader_Tests.modulemap"; sourceTree = "<group>"; };
+		2C1AA7320F2F7D7D325AB3C5562B9318 /* Pods-iOSDownloader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOSDownloader_Tests.modulemap"; sourceTree = "<group>"; };
 		2D42A48F6C85785F99C699CCEC47CEDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34487AC175941527DBFFAE48E4CBD865 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43D9C8D4BFBF7DF49DC4DB3975ECD49E /* Pods-iOSDownloader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSDownloader_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -52,14 +54,18 @@
 		7D6D41E7A280E0188E75CB9D2D1E5391 /* iOSDownloader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDownloader-umbrella.h"; sourceTree = "<group>"; };
 		7E6B811B10EA46D5C4E9981F75CF9D84 /* Pods-iOSDownloader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSDownloader_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7E79B77D2FF88D0050707DF37DCE7414 /* iOSDownloader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDownloader.xcconfig; sourceTree = "<group>"; };
-		87311CA45FA6B09F6B26CA6D9D01FD77 /* Pods_iOSDownloader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSDownloader_Tests.framework; path = "Pods-iOSDownloader_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87311CA45FA6B09F6B26CA6D9D01FD77 /* Pods_iOSDownloader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDownloader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC8EA6D1EE19A9C003424D9 /* WHDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHDownloadManager.h; sourceTree = "<group>"; };
+		8EC8EA6E1EE19A9C003424D9 /* WHDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHDownloadManager.m; sourceTree = "<group>"; };
+		8EC8EA721EE19ABD003424D9 /* WHBlockOperationWithUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBlockOperationWithUrl.h; sourceTree = "<group>"; };
+		8EC8EA731EE19ABD003424D9 /* WHBlockOperationWithUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBlockOperationWithUrl.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C76F1878E4754C974331D1A0CA57E0C /* iOSDownloader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDownloader-dummy.m"; sourceTree = "<group>"; };
 		AF870A87B65ACFD7D13E32156572134E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C422B30CF25523AE6DADE7E1650E5801 /* Pods_iOSDownloader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSDownloader_Example.framework; path = "Pods-iOSDownloader_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D517A86902B2E76DFF8B280FFE018427 /* iOSDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSDownloader.framework; path = iOSDownloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C422B30CF25523AE6DADE7E1650E5801 /* Pods_iOSDownloader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDownloader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D517A86902B2E76DFF8B280FFE018427 /* iOSDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSDownloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5C872D82B8146E1149587FAAB72F21 /* Pods-iOSDownloader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSDownloader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F356FEA51BBDA0E08126C6335F61E9A6 /* Pods-iOSDownloader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iOSDownloader_Example.modulemap"; sourceTree = "<group>"; };
+		F356FEA51BBDA0E08126C6335F61E9A6 /* Pods-iOSDownloader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOSDownloader_Example.modulemap"; sourceTree = "<group>"; };
 		F4F62E429DD7C0A31D3841BD1C808151 /* Pods-iOSDownloader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSDownloader_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F8F19A9E84845FBC39B79D2807C1A49C /* Pods-iOSDownloader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSDownloader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +111,6 @@
 			children = (
 				60BBD631E033C475CA749CF453E100A2 /* Classes */,
 			);
-			name = iOSDownloader;
 			path = iOSDownloader;
 			sourceTree = "<group>";
 		};
@@ -132,9 +137,9 @@
 		60BBD631E033C475CA749CF453E100A2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				027F9D4C91D25E09A997621A4DB2BBF0 /* ReplaceMe.m */,
+				8EC8EA711EE19ABD003424D9 /* Operations */,
+				8EC8EA6C1EE19A9C003424D9 /* DownloadManager */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -183,6 +188,24 @@
 				417CBD67033A3AACE6644F43CC7DA94C /* Products */,
 				CFE7AF7DE4D1F5E9BFCFB0BAA480B182 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8EC8EA6C1EE19A9C003424D9 /* DownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				8EC8EA6D1EE19A9C003424D9 /* WHDownloadManager.h */,
+				8EC8EA6E1EE19A9C003424D9 /* WHDownloadManager.m */,
+			);
+			path = DownloadManager;
+			sourceTree = "<group>";
+		};
+		8EC8EA711EE19ABD003424D9 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				8EC8EA721EE19ABD003424D9 /* WHBlockOperationWithUrl.h */,
+				8EC8EA731EE19ABD003424D9 /* WHBlockOperationWithUrl.m */,
+			);
+			path = Operations;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -248,6 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				35DE5FDD29C7CD3477CC3D6CD6E593C9 /* iOSDownloader-umbrella.h in Headers */,
+				8EC8EA741EE19ABD003424D9 /* WHBlockOperationWithUrl.h in Headers */,
+				8EC8EA6F1EE19A9C003424D9 /* WHDownloadManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,8 +380,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC8EA701EE19A9C003424D9 /* WHDownloadManager.m in Sources */,
+				8EC8EA751EE19ABD003424D9 /* WHBlockOperationWithUrl.m in Sources */,
 				1F4D22A12208500154410F5BA7D30EE1 /* iOSDownloader-dummy.m in Sources */,
-				B9E5DB7F73487DD9D190D87AAD1EAA4D /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
