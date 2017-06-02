@@ -1,0 +1,16 @@
+PODS:
+  - iOSDownloader (0.1.0)
+
+DEPENDENCIES:
+  - iOSDownloader (from `../`)
+
+EXTERNAL SOURCES:
+  iOSDownloader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iOSDownloader: 8721cc5d5c45ee59f6ec274d5867114fa6d358f2
+
+PODFILE CHECKSUM: e3b8573fc7a5008f0f8207bf76481137c85a49e1
+
+COCOAPODS: 1.2.1

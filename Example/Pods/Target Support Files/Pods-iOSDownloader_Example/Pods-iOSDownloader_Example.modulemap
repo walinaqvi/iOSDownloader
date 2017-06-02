@@ -1,0 +1,6 @@
+framework module Pods_iOSDownloader_Example {
+  umbrella header "Pods-iOSDownloader_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_iOSDownloader_Tests {
+  umbrella header "Pods-iOSDownloader_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

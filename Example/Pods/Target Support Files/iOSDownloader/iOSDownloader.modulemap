@@ -1,0 +1,6 @@
+framework module iOSDownloader {
+  umbrella header "iOSDownloader-umbrella.h"
+
+  export *
+  module * { export * }
+}
