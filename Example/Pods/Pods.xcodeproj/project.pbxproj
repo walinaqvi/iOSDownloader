@@ -14,6 +14,22 @@
 		536303472505C6E8DCA81F35FE4C1C98 /* Pods-iOSDownloader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6896C20C8D7EFCADA50B829A5CCD12E1 /* Pods-iOSDownloader_Tests-dummy.m */; };
 		5605BEAC30E9FC340CFED8D8C779BEE4 /* Pods-iOSDownloader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A2E6B7F14FDE05471A4718EFC5A22B /* Pods-iOSDownloader_Example-dummy.m */; };
 		7A42E3B6A546B92A52CE9B6F33BEA6E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8E9C46471EE2732600DDBC2A /* WHUIImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9C46451EE2732600DDBC2A /* WHUIImageView.h */; };
+		8E9C46481EE2732600DDBC2A /* WHUIImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9C46451EE2732600DDBC2A /* WHUIImageView.h */; };
+		8E9C46491EE2732600DDBC2A /* WHUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C46461EE2732600DDBC2A /* WHUIImageView.m */; };
+		8E9C464A1EE2732600DDBC2A /* WHUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C46461EE2732600DDBC2A /* WHUIImageView.m */; };
+		8E9C464F1EE29CF800DDBC2A /* NetworkServiceSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9C464D1EE29CF800DDBC2A /* NetworkServiceSessionManager.h */; };
+		8E9C46501EE29CF800DDBC2A /* NetworkServiceSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9C464D1EE29CF800DDBC2A /* NetworkServiceSessionManager.h */; };
+		8E9C46511EE29CF800DDBC2A /* NetworkServiceSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C464E1EE29CF800DDBC2A /* NetworkServiceSessionManager.m */; };
+		8E9C46521EE29CF800DDBC2A /* NetworkServiceSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C464E1EE29CF800DDBC2A /* NetworkServiceSessionManager.m */; };
+		8E9C46571EE29D8000DDBC2A /* NetworkAPIStringUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9C46531EE29D8000DDBC2A /* NetworkAPIStringUtility.h */; };
+		8E9C46581EE29D8000DDBC2A /* NetworkAPIStringUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9C46531EE29D8000DDBC2A /* NetworkAPIStringUtility.h */; };
+		8E9C46591EE29D8000DDBC2A /* NetworkAPIStringUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C46541EE29D8000DDBC2A /* NetworkAPIStringUtility.m */; };
+		8E9C465A1EE29D8000DDBC2A /* NetworkAPIStringUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C46541EE29D8000DDBC2A /* NetworkAPIStringUtility.m */; };
+		8E9C465B1EE29D8000DDBC2A /* NetworkQueryComposer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9C46551EE29D8000DDBC2A /* NetworkQueryComposer.h */; };
+		8E9C465C1EE29D8000DDBC2A /* NetworkQueryComposer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9C46551EE29D8000DDBC2A /* NetworkQueryComposer.h */; };
+		8E9C465D1EE29D8000DDBC2A /* NetworkQueryComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C46561EE29D8000DDBC2A /* NetworkQueryComposer.m */; };
+		8E9C465E1EE29D8000DDBC2A /* NetworkQueryComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C46561EE29D8000DDBC2A /* NetworkQueryComposer.m */; };
 		8EC8EA6F1EE19A9C003424D9 /* WHDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC8EA6D1EE19A9C003424D9 /* WHDownloadManager.h */; };
 		8EC8EA701EE19A9C003424D9 /* WHDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8EA6E1EE19A9C003424D9 /* WHDownloadManager.m */; };
 		8EC8EA741EE19ABD003424D9 /* WHBlockOperationWithUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC8EA721EE19ABD003424D9 /* WHBlockOperationWithUrl.h */; };
@@ -55,6 +71,14 @@
 		7E6B811B10EA46D5C4E9981F75CF9D84 /* Pods-iOSDownloader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSDownloader_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7E79B77D2FF88D0050707DF37DCE7414 /* iOSDownloader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDownloader.xcconfig; sourceTree = "<group>"; };
 		87311CA45FA6B09F6B26CA6D9D01FD77 /* Pods_iOSDownloader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDownloader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9C46451EE2732600DDBC2A /* WHUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUIImageView.h; sourceTree = "<group>"; };
+		8E9C46461EE2732600DDBC2A /* WHUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUIImageView.m; sourceTree = "<group>"; };
+		8E9C464D1EE29CF800DDBC2A /* NetworkServiceSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkServiceSessionManager.h; sourceTree = "<group>"; };
+		8E9C464E1EE29CF800DDBC2A /* NetworkServiceSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkServiceSessionManager.m; sourceTree = "<group>"; };
+		8E9C46531EE29D8000DDBC2A /* NetworkAPIStringUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkAPIStringUtility.h; sourceTree = "<group>"; };
+		8E9C46541EE29D8000DDBC2A /* NetworkAPIStringUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkAPIStringUtility.m; sourceTree = "<group>"; };
+		8E9C46551EE29D8000DDBC2A /* NetworkQueryComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkQueryComposer.h; sourceTree = "<group>"; };
+		8E9C46561EE29D8000DDBC2A /* NetworkQueryComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkQueryComposer.m; sourceTree = "<group>"; };
 		8EC8EA6D1EE19A9C003424D9 /* WHDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHDownloadManager.h; sourceTree = "<group>"; };
 		8EC8EA6E1EE19A9C003424D9 /* WHDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHDownloadManager.m; sourceTree = "<group>"; };
 		8EC8EA721EE19ABD003424D9 /* WHBlockOperationWithUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBlockOperationWithUrl.h; sourceTree = "<group>"; };
@@ -137,6 +161,8 @@
 		60BBD631E033C475CA749CF453E100A2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8E9C464C1EE29CF800DDBC2A /* NetworkClasses */,
+				8E2F79911EE26A5700243326 /* CustomeClasses */,
 				8EC8EA711EE19ABD003424D9 /* Operations */,
 				8EC8EA6C1EE19A9C003424D9 /* DownloadManager */,
 			);
@@ -188,6 +214,29 @@
 				417CBD67033A3AACE6644F43CC7DA94C /* Products */,
 				CFE7AF7DE4D1F5E9BFCFB0BAA480B182 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8E2F79911EE26A5700243326 /* CustomeClasses */ = {
+			isa = PBXGroup;
+			children = (
+				8E9C46451EE2732600DDBC2A /* WHUIImageView.h */,
+				8E9C46461EE2732600DDBC2A /* WHUIImageView.m */,
+			);
+			name = CustomeClasses;
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8E9C464C1EE29CF800DDBC2A /* NetworkClasses */ = {
+			isa = PBXGroup;
+			children = (
+				8E9C46531EE29D8000DDBC2A /* NetworkAPIStringUtility.h */,
+				8E9C46541EE29D8000DDBC2A /* NetworkAPIStringUtility.m */,
+				8E9C46551EE29D8000DDBC2A /* NetworkQueryComposer.h */,
+				8E9C46561EE29D8000DDBC2A /* NetworkQueryComposer.m */,
+				8E9C464D1EE29CF800DDBC2A /* NetworkServiceSessionManager.h */,
+				8E9C464E1EE29CF800DDBC2A /* NetworkServiceSessionManager.m */,
+			);
+			path = NetworkClasses;
 			sourceTree = "<group>";
 		};
 		8EC8EA6C1EE19A9C003424D9 /* DownloadManager */ = {
@@ -255,6 +304,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D6BD016CE6AB5C17974FC8B297FE69 /* Pods-iOSDownloader_Tests-umbrella.h in Headers */,
+				8E9C465C1EE29D8000DDBC2A /* NetworkQueryComposer.h in Headers */,
+				8E9C46481EE2732600DDBC2A /* WHUIImageView.h in Headers */,
+				8E9C46581EE29D8000DDBC2A /* NetworkAPIStringUtility.h in Headers */,
+				8E9C46501EE29CF800DDBC2A /* NetworkServiceSessionManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +324,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				35DE5FDD29C7CD3477CC3D6CD6E593C9 /* iOSDownloader-umbrella.h in Headers */,
+				8E9C46471EE2732600DDBC2A /* WHUIImageView.h in Headers */,
 				8EC8EA741EE19ABD003424D9 /* WHBlockOperationWithUrl.h in Headers */,
+				8E9C465B1EE29D8000DDBC2A /* NetworkQueryComposer.h in Headers */,
 				8EC8EA6F1EE19A9C003424D9 /* WHDownloadManager.h in Headers */,
+				8E9C46571EE29D8000DDBC2A /* NetworkAPIStringUtility.h in Headers */,
+				8E9C464F1EE29CF800DDBC2A /* NetworkServiceSessionManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +429,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9C46521EE29CF800DDBC2A /* NetworkServiceSessionManager.m in Sources */,
+				8E9C465E1EE29D8000DDBC2A /* NetworkQueryComposer.m in Sources */,
+				8E9C464A1EE2732600DDBC2A /* WHUIImageView.m in Sources */,
 				536303472505C6E8DCA81F35FE4C1C98 /* Pods-iOSDownloader_Tests-dummy.m in Sources */,
+				8E9C465A1EE29D8000DDBC2A /* NetworkAPIStringUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,8 +442,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EC8EA701EE19A9C003424D9 /* WHDownloadManager.m in Sources */,
+				8E9C46591EE29D8000DDBC2A /* NetworkAPIStringUtility.m in Sources */,
+				8E9C46491EE2732600DDBC2A /* WHUIImageView.m in Sources */,
 				8EC8EA751EE19ABD003424D9 /* WHBlockOperationWithUrl.m in Sources */,
+				8E9C465D1EE29D8000DDBC2A /* NetworkQueryComposer.m in Sources */,
 				1F4D22A12208500154410F5BA7D30EE1 /* iOSDownloader-dummy.m in Sources */,
+				8E9C46511EE29CF800DDBC2A /* NetworkServiceSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
