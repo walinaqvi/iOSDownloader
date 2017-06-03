@@ -22,10 +22,6 @@ NSString *baseUrl = @"http://pastebin.com/";
 }
 
 
-+ (NSString*) baseUrlWithVersion:(NSInteger)version
-{
-    return [NSString stringWithFormat:@"%@/v%ld", baseUrl, (version > 0) ? version : 1];
-}
 
 
 @end

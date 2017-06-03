@@ -18,13 +18,6 @@
  */
 + (NSString*)baseUrl;
 
-/**
- Mathod to get base URL of API request for perticular client Version
-
- @param version Client API version
- @return Base URL
- */
-+ (NSString*) baseUrlWithVersion:(NSInteger)version;
 
 
 @end
