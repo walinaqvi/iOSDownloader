@@ -22,7 +22,7 @@ pod "iOSDownloader"
 
 ## Author
 
-walinaqvi, Wali.Haider@searshc.com
+walinaqvi, Wali.naqvi@gmail.com
 
 ## License
 
